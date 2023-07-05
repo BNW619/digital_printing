@@ -1,0 +1,73 @@
+.fiction-fact {
+  max-height: max-content;
+  background-color: rgb(173, 154, 185);
+  border-radius: 20px;
+  position: relative;
+  top: 22rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(225, 0, 255)
+  );
+}
+.footer {
+  padding-top: 20vw;
+}
+.fotr-para {
+  color: darkgray;
+}
+
+
+.crd-hdr-title {
+  font-size: 4vw;
+  font-weight: 700;
+  padding-bottom: 2vw;
+}
+.crd-hdr-para {
+  padding-bottom: 4vw;
+}
+.bg-div-tg {
+  background-image: linear-gradient(to right, rgb(181 80 190 / 31%), rgb(205, 10, 150));
+  padding: 7rem;
+}
+@media screen and (max-width: 768px) {
+  .ftr-col {
+    text-align: center;
+    margin-top: 3vw;
+    /* box-shadow: mintcream; */
+    /* border-top-width: thick; */
+  }
+}
+@media screen and (max-width: 576px) {
+  .ftr-col {
+    text-align: center;
+    margin-top: 5vw;
+    /* border: 1px solid; */
+    padding: 15px;
+    /* box-shadow: mintcream; */
+    /* border-top-width: thick; */
+    width: 70%;
+    /* position: relative; */
+    /* left: 13vw; */
+  }
+  .footer-min{
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flot-crd {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 356px) and (min-width: 320px){
+  .flot-crd {
+    width: max-content;
+  }
+  .account-min{
+    display: grid;
+    justify-content: center;
+  }
+}

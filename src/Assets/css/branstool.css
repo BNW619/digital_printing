@@ -1,0 +1,118 @@
+.search-lenght {
+  background-image: url("../images/Group\ 34434.png");
+  max-height: 100vh;
+  height: 32vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 992px) {
+  .search-lenght {
+    height: 60vw !important;
+  }
+}
+.ablink-crd {
+  width: 34vw;
+  height: 22vw;
+  border-radius: 12px;
+  border: 1px solid #913db2;
+}
+.crd-link-min {
+  position: relative;
+  top: 50px;
+  left: vw;
+}
+.crd-icon-min {
+  flex: auto;
+  top: 9vw;
+  position: relative;
+}
+.anime-textyre-min-dv {
+  top: 6vw;
+  position: relative;
+  padding: 35px;
+}
+@media screen and (max-width: 768px) {
+  .anime-textyre-min-dv {
+    top: 0px;
+  }
+}
+.custom-search {
+  position: relative;
+  width: 300px;
+}
+.custom-search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 100px 10px 20px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+.custom-search-botton {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: #ca3fd6;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 10%;
+  z-index: 2;
+}
+
+.hdr-tag-tool {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  position: relative;
+  left: 30%;
+  font-size: 3vw;
+  font-weight: 700;
+  margin: 6vw;
+}
+
+.hdr-tag-tool .spn-tol-tg {
+  background: #fff;
+  padding: 0 10px;
+}
+.brand-logo {
+  width: 8rem;
+}
+.brand-logo2 {
+  width: 8rem;
+}
+.brand-logo-ghost {
+  width: 8rem;
+}
+@media screen and (max-width: 768px) {
+  .brand-img-all {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 3vw;
+  }
+  .brand-logo {
+    width: 30vw;
+  }
+  .brand-logo2 {
+    width: 30vw;
+    margin-top: 2vw;
+  }
+  .test-brand-icn-- {
+    margin-top: 2vw !important ;
+  }
+}
+.center-hdr-anymore {
+  font-size: larger;
+  font-weight: 500;
+  border-bottom: 5px solid purple;
+  width: fit-content;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}

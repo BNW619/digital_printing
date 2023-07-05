@@ -1,0 +1,33 @@
+.stories {
+  background-color: #efebf8;
+}
+.fiction {
+  border-radius: 20px;
+  position: relative;
+  top: 6.3rem;
+
+  background: rgb(225, 176, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(225, 176, 225, 1) 0%,
+    rgba(234, 47, 230, 0.7344187675070029) 100%
+  );
+}
+@media screen and (max-width: 768px) {
+  .fiction {
+    top: 0px;
+    left: 12px;
+  }
+}
+
+.para-tex-ani {
+  line-height: 10px;
+}
+@media screen and (max-width: 376px) {
+  .para-tex-ani {
+    left: 12px;
+  }
+}
+.stories-card {
+  margin-bottom: 6rem;
+}

@@ -1,0 +1,179 @@
+.hdr-top {
+  background-image: url(../images/home-header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 50px 0;
+}
+/* .navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6d61b8 !important;
+} */
+@media screen and (max-width:840px) and (min-width:682px) {
+  .hdr-btn-tg{
+  padding-top: 90px;
+  /* background-color: #6d61b8; */
+}
+}
+
+@media only screen and (max-width: 683px) {
+  .hdr-top{
+    height: 49vw;
+  }
+ 
+
+}
+/* -------Media Qurey--------- */
+@media only screen and (max-width: 1350px) and (min-width: 1030px){
+  .header-bdy-texture {
+    font-weight: bold !important;
+    color: white;
+    font-size: 12px !important;
+    line-height: 45px !important;
+    font-size: 35px !important;
+  }
+  .line-ht-hdr{
+    line-height: 28px;
+  }
+}
+@media only screen and (max-width: 1030px) and (min-width: 545px) {
+  .header-bdy-texture {
+    font-weight: bold !important;
+    color: white;
+    font-size: small !important;
+    line-height: 27px !important;
+    font-size: 20px !important;
+  }
+  .line-ht-hdr{
+    line-height: 0px;
+  }
+  .hdr-btn-tg{
+    position: relative;
+      bottom: 110px;
+  }
+}
+.dsply-hdr-br{
+  padding-top: 10rem;
+}
+@media only screen and (max-width: 846px) and (min-width: 320px) {
+  .dsply-hdr-br  {
+    display: none;
+  }
+  .hdr-btn-tg{
+    position: relative !important;
+    top: 2vw !important;
+  }
+}
+@media only screen and (max-width: 683px) and (min-width: 320px) {
+  .hdr-btn-tg {
+    display: none;
+  }
+ 
+
+}
+
+
+.header-bdy-texture {
+  font-size: 5vw;
+  font-weight: 900;
+  color: white;
+  line-height: 1;
+}
+.tp-nv-btn {
+  background: #ca3fd6 !important;
+  font: 600;
+  color: white;
+  /* width: 8vw; */
+}
+@media only screen and (max-width: 767px) {
+  .tp-nv-btn {
+    width: 100%;
+    margin-top: 2vw;
+    background-color: white !important;
+    color: steelblue;
+  }
+}
+
+.top-logo {
+  width: 5rem;
+  height: 5rem;
+}
+.navbar-toggler-icon {
+  color: white !important;
+}
+.navbar-toggler {
+  background: thistle !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .offcanvas-body {
+    background: steelblue;
+  }
+}
+.nav-link {
+  font-size: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .crds-qualtiy {
+    background: steelblue;
+    margin-top: 3vw;
+  }
+}
+/* @media screen and (max-width:991px) and (min-width:768px) {
+  .Story-card-col-1, .Story-card-col-2{
+    width: 100px !important;
+    background-color: yellow;
+  }
+  
+} */
+.nav-link {
+  font-size: 15px;
+}
+
+.hdr-bdge-comp {
+  height:1.4rem;
+  width: 1.4rem;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 6px; */
+}
+
+
+.hdr-bdge-min {
+  border-radius: 14px;
+  width: 14rem;
+  background-color: rgb(194, 175, 175);
+  background-image: linear-gradient(rgb(220 207 207), #513aca) !important;}
+.btn-sign-up {
+  background: #6d61b8;
+  font: 600;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+@media screen and (max-width:396px) {
+  .btn-sign-up{
+    padding: 6px !important;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .btn-trial{
+    width: 100%;
+  }
+  
+}
+.btn-trial {
+  background: #ca3fd6 !important;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+.texture-header-bdy {
+  color: white;
+  font-size: 20px;
+}

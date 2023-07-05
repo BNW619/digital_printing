@@ -1,0 +1,81 @@
+.slider-about{
+    background-color:#2F1444 ;
+}
+.sldr-hdr-p{
+    line-height: 10px;
+    align-content:center;
+    font-size: initial;
+    color: grey;  
+}
+.slider-crd-para{
+    font-weight: 700;
+}
+.sldr-icon-star{
+    color: gold;
+}
+.slick-dots li button:before{
+    font-size: 23px !important;
+    bottom: -70px !important;
+    position: absolute !important;
+}
+.slick-dots{
+    bottom: -70px !important;
+    position: absolute !important;
+}
+
+.sldr-header{
+    color: white;
+    text-align: center;
+    padding: 6vw;
+    padding-top: 13vw;
+
+}
+.sldr-crd{
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.slick-dots li.slick-active button:before{
+    color: rgb(247, 0, 255) !important;
+}
+.slick-dots li button:before {
+    color: rgb(234, 234, 233) !important;
+}
+.slick-prev, .slick-next{
+    display: none !important;
+}
+.story-hdr-tg{
+    color: #D74399;
+    font-size: 5rem;
+    font-weight: 700;
+    /* text-align: center; */
+}
+.card-slider-min{
+    width:25rem
+}
+@media screen and (max-width:1399px){
+    .card-slider-min{
+        width:22rem;
+    }
+}
+@media screen and (max-width:1200px){
+    .card-slider-min{
+        width:18rem;
+    }
+}
+@media screen and (max-width:992px){
+    .card-slider-min{
+        width:20rem;
+    }
+}
+@media screen and (max-width:768px){
+    .card-slider-min{
+        width:25rem;
+    }
+}
+@media only screen and (max-width:576px)
+{
+    .card-slider-min{
+        width:auto;
+    }
+}
